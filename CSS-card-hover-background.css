@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&displayer=swap');
+/* #CSS-card-hover-background {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: #bdc3c7;  
+    background: -webkit-linear-gradient(to right, #112740, #bdc3c7);  
+    background: linear-gradient(to right, #1b3e61, #a2daff); 
+ } */
+ #CSS-card-hover-background h1{
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+text-transform: uppercase;
+ font-size:3em;
+ text-align: center;
+ align-items: center;
+ color: #240b36;
+}
+
+#CSS-card-hover-background .txt{
+ font-size:1.5em;
+ text-align: center;
+ align-items: center;
+ color: #1f1f1f;
+ font-weight: 500;
+ padding: 30px;
+ padding-bottom: 100px;
+ 
+}
+ .containera{
+    position: relative;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+ }
+ 
+ .containera .carda {
+    position: relative;
+    max-width: 250px;
+    height: 50px;
+    background: #fff;
+    margin: 80px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out; 
+ }
+
+ .containera .carda:hover {
+    height: 70px;
+ }
+
+ .containera .carda .imgax {
+   position: relative;
+   width: 260px;
+   height: 50px;
+   top: -80px;
+   left: 30px; 
+ }
+
+ .containera .carda .imgax img {
+    max-width: 150px;
+    border-radius: 4px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+ }
+
+ .containera .carda .contenta {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+ }
+
+ .containera .carda .contenta h2 {
+   margin-bottom: 10px;
+ }
+
+ .containera .carda:hover .contenta {
+   visibility: visible;
+   opacity: 1;
+   margin-top: -40px;
+   transition-delay: 0.3s;
+ } 
